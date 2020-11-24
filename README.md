@@ -9,4 +9,4 @@ to existing libraries or any other part of the environment.
 #### Ubuntu (this will probably work on other debian-based systems like MxLinux as well.)
 Tested on ubuntu-20.04.1-desktop-amd64.
 
-[korbie_ubuntu_release_1.0.tar.gz](https://drive.google.com/file/d/1v4ExrdO_7y_YOk17_G2cbFRXM7e3TY5C/view?usp=sharing) 
+[korbie_ubuntu_release_1.0.tar.gz](https://drive.google.com/uc?export=download&id=1v4ExrdO_7y_YOk17_G2cbFRXM7e3TY5C) 
