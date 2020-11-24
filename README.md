@@ -10,3 +10,7 @@ to existing libraries or any other part of the environment.
 Tested on ubuntu-20.04.1-desktop-amd64.
 
 [korbie_ubuntu_release_1.0.tar.gz](https://drive.google.com/uc?export=download&id=1v4ExrdO_7y_YOk17_G2cbFRXM7e3TY5C) 
+
+tar xvf korbie_ubuntu_release_1.0.tar.gz
+./korbie
+
