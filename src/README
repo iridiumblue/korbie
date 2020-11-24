@@ -1,0 +1,6 @@
+Requires Python 3.x and g++ .
+
+To build/run :
+
+    $ ./build_lib.sh                # compiles c_calc.c and generates libkorbie.so
+    $ python3 korbie.py
