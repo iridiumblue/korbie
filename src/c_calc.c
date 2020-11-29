@@ -266,7 +266,7 @@ int go(float a, float p, float e, float ang_inc, double t[], double x[MAX_STEPS]
 extern "C" {
   void go_4(
         float a, float p, float e, float theta,
-        double t[],double x[], uint num_steps
+        double t[],double x[], int num_steps
        )
   {
       if (num_steps>MAX_STEPS) {
