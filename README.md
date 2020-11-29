@@ -1,6 +1,8 @@
 # korbie
 Explore the possible (bounded) orbits around a spinning black hole.
 
+See this quick video introduction - [Korbie flyover on youtube](https://www.youtube.com/watch?v=3XwSmJAkr-I)
+
 ![GitHub Logo](Screen.png)
 
 ### ready to run binaries
