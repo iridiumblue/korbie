@@ -13,5 +13,7 @@ Tested on ubuntu-20.04.1-desktop-amd64.
 
     $ tar xvf korbie_ubuntu_release_1.0.tar.gz
     $ ./korbie`
+    
+#### (more binaries coming soon.)
 
 
