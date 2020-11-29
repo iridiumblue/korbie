@@ -1,7 +1,7 @@
 # korbie
 Explore the possible (bounded) orbits around a spinning black hole.
 
-![GitHub Logo](Screen.png)
+![GitHub Logo](Screen.png = 250x)
 
 ### ready to run binaries
 These packages are large (about 600 MB unpacked) in order to minimize dependencies on the target machine.
