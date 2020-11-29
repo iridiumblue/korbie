@@ -1,4 +1,5 @@
 // 3D array is static, hand-assemble returning value
+// for windows, get GCC like this - https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j
 
 
 #include <math.h>

@@ -220,8 +220,8 @@ class Ui_MainWindow(object):
         self.revs.setOrientation(QtCore.Qt.Horizontal)
         self.revs.valueChanged.connect(self.rev_display_update)
         #self.revs.sliderReleased.connect(self.rev_update)
-        self.revs.setMinimum(0)
-        self.revs.setMaximum(500)
+        self.revs.setMinimum(1)
+        self.revs.setMaximum(200)
         
         self.revs.setTickPosition(QtWidgets.QSlider.TicksBothSides)
         self.revs.setGeometry(QtCore.QRect(480, 65, 180, 20))
@@ -349,8 +349,8 @@ class Ui_MainWindow(object):
         self.animationFrame=0
         a=self.doubleSpinBox.value()
         p=self.doubleSpinBox_p.value()
-        e=self.doubleSpinBox_e.value()
-        theta=self.doubleSpinBox_angle.value()
+        e=max([1e-9,self.doubleSpinBox_e.value()])
+        theta=max([1e-9,self.doubleSpinBox_angle.value()])
         #alert("OK! "+str(a)+" "+str(p)+" "+str(e)+" "+str(theta))
         self.pts = do_plot(a,p,e,theta,NUM_STEPS)
         
