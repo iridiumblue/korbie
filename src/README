@@ -5,6 +5,6 @@ To build/run :
     $ ./build_lib.sh                # compiles c_calc.c and generates libkorbie.so
     
     $ # the following module installation may or may not be necessary on your system.
-    $ python3 -m pip install pyopengl pyqtgraph
+    $ python3 -m pip install pyopengl pyqtgraph --user
     
     $ python3 korbie.py
